@@ -16,7 +16,7 @@ main session (Sonnet) ── orchestrates, writes routine code
 - **Quality first.** When unsure between Sonnet and Opus, Opus wins. Haiku never edits.
 - **Auto-escalation.** Two failed attempts on the same task → handed to Opus with what was tried.
 - **Log.** One line per task: `→ opus · migration for bookings · data backfill, irreversible`.
-- **Overrides.** Start a message with `!opus`, `!sonnet` or `!haiku`.
+- **Overrides.** Start a message with `opus:`, `sonnet:` or `haiku:` (not `!` — that is Claude Code's shell mode).
 - **Project rules.** A `## Model routing` section in a project's `CLAUDE.md` overrides the defaults.
 
 ### Install
@@ -42,7 +42,7 @@ Restart Claude Code or run `/reload-plugins`.
 
 - New session → ask "which routing rules are active?" — it should describe the three tiers.
 - `/agents` lists `model-router:haiku-scout` and `model-router:opus-architect`.
-- `!haiku where is the auth middleware registered?` → log line `→ haiku · … · override`.
+- `haiku: where is the auth middleware registered?` → log line `→ haiku · … · override`.
 
 ### Cowork
 

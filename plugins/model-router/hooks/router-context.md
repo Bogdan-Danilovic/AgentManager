@@ -22,7 +22,7 @@ Escalation gets its own line: `↑ opus · <task> · <reason>`.
 
 ## Overrides
 
-If the user's message starts with `!opus`, `!sonnet` or `!haiku`, that model is forced for the task; a hook adds a confirming note. Follow it and log `· override`.
+If the user's message starts with `opus:`, `sonnet:` or `haiku:`, that model is forced for the task; a hook adds a confirming note. Follow it and log `· override`.
 
 ## Escalation
 

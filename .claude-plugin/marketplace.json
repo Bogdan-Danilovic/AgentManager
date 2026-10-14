@@ -9,7 +9,7 @@
       "name": "model-router",
       "source": "./plugins/model-router",
       "description": "Routes every task to the cheapest model that keeps full quality: Haiku reads, Sonnet runs the session, Opus takes the hard parts.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }
