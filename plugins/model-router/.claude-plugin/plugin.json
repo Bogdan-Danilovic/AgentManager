@@ -1,0 +1,9 @@
+{
+  "name": "model-router",
+  "version": "0.1.0",
+  "description": "Routes every task to the cheapest model that keeps full quality: Haiku reads, Sonnet runs the session, Opus takes the hard parts.",
+  "author": { "name": "Bogdan Danilovic" },
+  "repository": "https://github.com/Bogdan-Danilovic/AgentManager",
+  "license": "MIT",
+  "keywords": ["routing", "subagents", "haiku", "sonnet", "opus", "usage-limits"]
+}

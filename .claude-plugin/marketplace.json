@@ -1,0 +1,15 @@
+{
+  "name": "agent-manager",
+  "owner": { "name": "Bogdan Danilovic" },
+  "metadata": {
+    "description": "Bogdan Danilovic's Claude Code plugins"
+  },
+  "plugins": [
+    {
+      "name": "model-router",
+      "source": "./plugins/model-router",
+      "description": "Routes every task to the cheapest model that keeps full quality: Haiku reads, Sonnet runs the session, Opus takes the hard parts.",
+      "version": "0.1.0"
+    }
+  ]
+}
